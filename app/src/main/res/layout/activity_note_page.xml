@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NotePage">
+
+    <LinearLayout
+        android:id="@+id/contentLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="80dp"
+        android:orientation="vertical"></LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/createMenu"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="right"
+        android:layout_marginLeft="320dp"
+
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="120dp"
+        android:orientation="vertical">
+
+        <ImageButton
+            android:id="@+id/createImage"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@android:drawable/btn_star_big_on"
+            android:baselineAlignBottom="false" />
+
+        <ImageButton
+            android:id="@+id/createTimer"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/saat"
+            android:baselineAlignBottom="false" />
+
+        <ImageButton
+            android:id="@+id/createET"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="bottom"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="60dp"
+            android:background="@drawable/text"
+            android:baselineAlignBottom="false" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/backButton"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/back"
+            android:baselineAlignBottom="false" />
+
+        <TextView
+            android:id="@+id/noteTitleTV"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:text="TextView"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <ImageButton
+            android:id="@+id/createObjectButton"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+
+            android:layout_gravity="bottom|right"
+            android:layout_marginRight="25dp"
+            android:layout_marginBottom="25dp"
+            android:background="@drawable/plus"
+            android:baselineAlignBottom="false" />
+
+    </LinearLayout>
+
+</RelativeLayout>
